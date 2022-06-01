@@ -1,0 +1,20 @@
+name: VoteToRestart
+version: '${project.version}'
+main: io.github.maxmilite.votetorestart.Votetorestart
+api-version: 1.18
+authors: [ Maxmilite ]
+description: A plugin which allows player to vote to restart the server.
+website: maxmilite.github.io
+commands:
+  startvotetorestart:
+    description: Start a vote to restart.
+    usage: /<command>
+    aliases: [startvtr]
+  votetorestart:
+    description: Vote for the restart.
+    usage: /<command>
+    aliases: [vtr]
+  cancelvote:
+    description: Force to cancel a vote.
+    usage: /<command>
+    permission: vtr.cancel

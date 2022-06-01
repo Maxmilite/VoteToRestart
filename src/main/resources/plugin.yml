@@ -10,10 +10,12 @@ commands:
     description: Start a vote to restart.
     usage: /<command>
     aliases: [startvtr]
+    permission: vtr.start
   votetorestart:
     description: Vote for the restart.
     usage: /<command>
     aliases: [vtr]
+    permission: vtr.vtr
   cancelvote:
     description: Force to cancel a vote.
     usage: /<command>
